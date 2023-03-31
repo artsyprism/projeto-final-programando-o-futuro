@@ -62,6 +62,58 @@ h1 {
     width: 50px
 }
 
+/* Generos */
+.generos-fundo {
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(to right, #8251BD , #7E1E8A);
+}
+
+.generos-titulo {
+    font-size: 20px;
+    font-family: 'sans-bold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+}
+
+ul {
+    margin: 20px;
+    box-sizing: border-box;
+    font-family: 'sans-bold';
+    position: relative;
+    flex-direction: column;
+}
+
+
+.lista-generos li {
+    color: #ffffff;
+    margin: 2px;
+    padding: 5px 15px;
+    border: 1px solid #ffffffA1;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.lista-generos li:hover {
+    background-color: #ffffff2B;
+}
+
+
+.lista-generos {
+    display: flex;
+    color: #ffff;
+    list-style: none;
+    justify-items: center;
+    padding-left: 0;
+    gap: 5px;
+}
+
 @font-face { 
     font-family:'minecraftia';
     src: url('fontes/Minecraftia-Regular.ttf');}
+
+@font-face { 
+    font-family:'sans-bold';
+    src: url('fontes/OpenSans-Bold.ttf');}
