@@ -298,10 +298,9 @@ tr:last-child td {
     justify-content: center;
     align-items: center;
     background-color: #2E1B5B;
-    width: 100%;
+    margin: 0 200px;
     height: 255px;
     position: relative;
-    margin-top: 100px;
 }
 
 .footer h3 {
